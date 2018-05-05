@@ -3,6 +3,22 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+nav {
+  a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover {
+      color: rgb(67, 167, 0);
+    }
+  }
+}
+
 .columns {
   display: flex;
 
