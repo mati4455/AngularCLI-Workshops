@@ -11,6 +11,10 @@ const appRoutes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'news',
+    loadChildren: './news/news.module#NewsModule'
   }
 ];
 
