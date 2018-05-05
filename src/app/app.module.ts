@@ -15,6 +15,10 @@ const appRoutes: Routes = [
   {
     path: 'news',
     loadChildren: './news/news.module#NewsModule'
+  },
+  {
+    path: 'register',
+    loadChildren: './register/register.module#RegisterModule'
   }
 ];
 
