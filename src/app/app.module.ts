@@ -15,6 +15,10 @@ const appRoutes: Routes = [
   {
     path: 'register',
     loadChildren: './register/register.module#RegisterModule'
+  },
+  {
+    path: 'account',
+    loadChildren: './account/account.module#AccountModule'
   }
 ];
 
