@@ -5,6 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
+import { WeatherComponent } from './weather/weather.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const appRoutes: Routes = [
@@ -26,7 +28,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    WeatherComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
